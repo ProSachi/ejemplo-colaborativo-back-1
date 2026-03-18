@@ -1,12 +1,12 @@
 import model.Cuenta;
-import model.CuentaAhorros;
+import model.CuentaAhorro;
 import model.CuentaCorriente;
 
 public class App {
     public static void main(String[] args) throws Exception {
         
         Cuenta juan = new Cuenta();
-        CuentaAhorros pedro = new CuentaAhorros();
+        CuentaAhorro pedro = new CuentaAhorro();
         CuentaCorriente luis = new CuentaCorriente();
 
         pedro.consultarSaldo();
